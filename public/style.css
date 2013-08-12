@@ -1,0 +1,86 @@
+.banner {
+  background-color: #74818c;
+  height: 50px;
+}
+
+.clear {
+     clear: both;
+}
+
+.logo {
+  float:left;
+  margin: 10px 0 10px 30px;
+  font-size: 30px;
+}
+.menu {
+  float: right;
+}
+.menu ul {
+  list-style: none;
+  margin: 10px 30px 10px 0;
+}
+
+.menu li {
+  display: inline;
+  padding-left: 5px;
+}
+
+.menu a:hover{
+  color: orange;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*movie page*/
+
+.find form{
+text-align: center;
+margin-top: 40px;
+}
+
+input{
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+button {
+  padding: 8px 24px 9px;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: orange;
+
+}
+.movie{
+margin: 30px 60px 30px 60px;
+}
+
+.movieimg{
+  float: left;
+  width:40%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.movieplot{
+  float: right;
+  width:60%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.content{
+  margin: 30px 60px 30px 60px;
+}
+
+body {
+     background-color: white;
+}
+
+footer {
+  text-align: center;
+}

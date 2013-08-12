@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Reviews</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <div class="banner">
+      <header>
+        <p class="logo"> Movies Review </p>
+        <nav class="menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/movies">Movie</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="clear">
+      <%= yield %>
+    </div>
+    <footer class="clear">
+      &copy; Movies Review
+    </footer>
+  </body>
+
+</html>
+
